@@ -5,10 +5,10 @@ Python Library to help you short urls with advanced options. Multiple domains, v
 ## Features
 - Multiple domains
 - Link TTL (Time-To-Live) in seconds
-- Redirect to second URL after expire main URL (TTL)
+- Redirect to second URL after primary URL expires (TTL)
 - Randomized and weighted randomnized redirect to different URLs
-- Password protected visit statistics of shortned URL
-- Password protected shortned url parameters (TTL, second URL etc.)
+- Password-protected statistics of visits to a shortened URL
+- Password protected shortened URL parameters (TTL, second URL, etc.)
 
 ## Installation
 
