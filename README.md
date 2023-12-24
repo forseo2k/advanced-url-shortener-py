@@ -3,6 +3,7 @@
 Python Library to help you short urls with advanced options. Multiple domains, visit statistics etc.
 
 ## Features
+- Easy to use
 - Multiple domains
 - Link TTL (Time-To-Live) in seconds
 - Redirect to second URL after primary URL expires (TTL)
@@ -34,7 +35,7 @@ advurl_shorten.short("https://google.com/")
 # Returns the shortened URLs
 
 advurl_shorten.short("https://google.com/", pass="1234x")
-# Returns the shortened URLs, set password to get statistics and parameters of shortened url
+# Returns shortened URLs, sets a password to access statistics and shortened URL parameters.
 
 advurl_shorten.short("https://google.com/", ttl=86400)
 # Returns the shortened URLs., after 24 hours (86400 seconds) will return "The Link You Followed Has Expired"
@@ -42,7 +43,7 @@ advurl_shorten.short("https://google.com/", ttl=86400)
 advurl_shorten.short("https://google.com/",second_url="https://bing.com/")
 # Returns shortened URLs. The shortened link is randomly redirected to one of the provided URLs.
 
-advurl_shorten.short("https://google.com/",second_url="https://bing.com/", "weights"=[0.3, 0.4])
+advurl_shorten.short("https://google.com/",second_url="https://bing.com/", "weights"=[0.3, 0.7])
 # Returns shortened URLs. The shortened link is randomly (weighted by weight parameter) redirected to one of the provided URLs.
 
 advurl_shorten.short("https://google.com/", ttl=86400, second_url="https://bing.com/")
