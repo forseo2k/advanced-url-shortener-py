@@ -1,6 +1,6 @@
 # advurl_shorten
 
-Python Library to help you short and expand urls using https://rel.ink/
+Python Library to help you short urls  using advanced options. Multiple domains,visit statistics etc.
 
 ## Installation
 
