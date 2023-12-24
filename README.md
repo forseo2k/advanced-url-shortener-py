@@ -69,5 +69,4 @@ advurl_shortner.stat("https://liil.bid/kdRz",pass="1234x")
 
 ### TODO:
 - More than 2 URLs
-- Weighted randomize
-
+- Advanced visit statistics
