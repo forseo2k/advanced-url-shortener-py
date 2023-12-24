@@ -55,6 +55,16 @@ advurl_shorten.short("https://google.com/", ttl=86400, second_url="https://bing.
 ```python
 advurl_shorten.stat("https://liil.bid/kdRz",pass="1234x")
 # Returns the parameters and visit statistics of the shortened URL
+# Example:
+#{
+#	"url": "http://google.com/?z=1",
+#	"second_url": "http://yahoo.com/",
+#	"ttl": null,
+#	"date_created": "1703411470",
+#	"weights": null,
+#	"visits": 4,
+#	"primary_url_expired": false
+#}
 ```
 
 ### TODO:
