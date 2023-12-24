@@ -29,7 +29,7 @@ advurl_shorten.short("https://google.com/",second_url="https://bing.com/")    # 
 advurl_shorten.short("https://google.com/",second_url="https://bing.com/", "weights"=[0.3, 0.4])    # Returns shortened URLs. The shortened link is randomly (weighted by weight parameter) redirected to one of the provided URLs.
 advurl_shorten.short("https://google.com/", ttl=86400, second_url="https://bing.com/")    # Returns the shortened URLs., after 24 hours (86400 seconds)  shortned link will redirect to second_url
 
-advurl_shorten.stat("https://liil.bid/kdRz",)    # Returns the parameters and visit statistics of the shortened URL
+advurl_shorten.stat("https://liil.bid/kdRz",pass="1234x")    # Returns the parameters and visit statistics of the shortened URL
 
 ```
 
